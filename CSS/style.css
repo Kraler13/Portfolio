@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 4.2em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+    color: #333;
+    width: 100%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.9em;
+}
+
+button {
+    color: #333;
+    background-color: rgba(0, 123, 255, 0);
+    border: 2px solid;
+    border-color: rgba(0, 123, 255, 0.8);
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.main {
+    padding: 120px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../portfolio-grafiki/img/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p {
+    width: 100%;
+    text-align: center;
+}
+
+.navMenu {
+
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 123, 255, 0.8);
+}
+
+.menu {
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 1em;
+}
+
+.aboutMe {
+    padding: 120px;
+    margin: auto;
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutJpg {
+    border: 1px;
+    border-radius: 270px;
+}
+
+.portfolioBackground {
+    padding: 120px;
+    width: 100%;
+    background-color: #f2f1ed;
+}
+
+.portfolio {
+    margin: auto;
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.photo {
+    width: 25%;
+    height: 33%;
+}
+
+.contact {
+    margin: auto;
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.firstLine{
+    width: 45%;
+    height: 40px;
+}
+
+.message{
+    width: 95%;
+    height: 40px;
+}
+
+.submitButton{
+    color: #333;
+    background-color: rgba(0, 123, 255, 0);
+    border: 2px solid;
+    border-color: rgba(0, 123, 255, 0.8);
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.copyright{
+    padding: 20px;
+    width: 100%;
+    background-color: #f2f1ed;
+}
+@media (min-width: 1200px) {
+    body {
+        
+    }    
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    body {
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    body {
+        
+    }
+}
+
+@media(max-width: 768px) {
+    body {
+        
+    }
+}
