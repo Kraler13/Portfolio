@@ -12,16 +12,24 @@
 <body>
     <header class="main">
         <h1>FRONT END DEVELOPER</h1>
-        <p>HTML CSS JavaScript</p>
-        <button>DOWIEDZ SIĘ WIĘCEJ</button>
+        <hr>
+        <p>
+            HTML
+            <span>.</span>
+            CSS
+            <span>.</span>
+            JavaScript
+        </p>
+        <a href="" class="aButton">DOWIEDZ SIĘ WIĘCEJ</a>
     </header>
     <nav class="navMenu">
         <div class="menu"><a href="#aboutMe">O MNIE</a></div>
         <div class="menu"><a href="#portfolioBackground">PORTFOLIO</a></div>
         <div class="menu"><a href="#contact">KONTAKT</a></div>
     </nav>
-    <article class="aboutMe" >
+    <article class="aboutMe">
         <h2 id="aboutMe">O MNIE</h2>
+        <hr>
         <img src="portfolio-grafiki/img/about.jpg" alt="Moje Zdięcie" id="aboutJpg">
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptate laborum, incidunt praesentium
@@ -35,9 +43,10 @@
         </p>
         <button>MOJE PORTFOLIO</button>
     </article>
-    <section class="portfolioBackground" >
+    <section class="portfolioBackground">
         <section class="portfolio">
-            <h2 id="portfolioBackground">PORTFOLIO</h2>
+            <h2>PORTFOLIO</h2>
+            <hr>
             <img src="portfolio-grafiki/img/portfolio/photo-1.jpg" alt="" class="photo" id="portfolioImg1">
             <img src="portfolio-grafiki/img/portfolio/photo-2.jpg" alt="" class="photo" id="portfolioImg2">
             <img src="portfolio-grafiki/img/portfolio/photo-3.jpg" alt="" class="photo" id="portfolioImg3">
@@ -54,9 +63,11 @@
     </section>
     <section class="contact">
         <h2 id="contact">KONTAKT</h2>
-
+        <hr>
+        <span class="firstLineBox">
         <input type="text" placeholder="Imię" class="firstLine">
         <input type="email" placeholder="Email" class="firstLine">
+    </span>
         <textarea name="" id="" placeholder="Wiadomość" class="message"></textarea>
         <input type="submit" class="submitButton">
     </section>
